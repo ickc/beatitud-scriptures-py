@@ -7,7 +7,6 @@ setup(
     author_email='antoine_rose@hotmail.fr',
     packages=find_packages(exclude=("tests",)),
     include_package_data=True,
-    install_requires=open("./requirements.pip").readlines(),
     license='MIT',
     description='bible-ref-py is a python library implemented by Beatitud Developers, '
                 'built on top of python-scriptures library, '
