@@ -18,6 +18,9 @@ class Canon(
         "gen": {
             "en": (
                 "Genesis",
+                "Gen.",
+                "Ge.",
+                "Gn.",
                 "Gen",
                 "Gen(?:esis)?",
             ),
@@ -77,6 +80,9 @@ class Canon(
         "exod": {
             "en": (
                 "Exodus",
+                "Ex.",
+                "Exod.",
+                "Exo.",
                 "Exod",
                 "Exod(?:us)?",
             ),
@@ -126,6 +132,9 @@ class Canon(
         "lev": {
             "en": (
                 "Leviticus",
+                "Lev.",
+                "Le.",
+                "Lv.",
                 "Lev",
                 "Lev(?:iticus)?",
             ),
@@ -162,6 +171,10 @@ class Canon(
         "num": {
             "en": (
                 "Numbers",
+                "Num.",
+                "Nu.",
+                "Nm.",
+                "Nb.",
                 "Num",
                 "Num(?:bers)?",
             ),
@@ -207,6 +220,9 @@ class Canon(
         "deut": {
             "en": (
                 "Deuteronomy",
+                "Deut.",
+                "De.",
+                "Dt.",
                 "Deut",
                 "Deut(?:eronomy)?",
             ),
@@ -250,6 +266,9 @@ class Canon(
         "josh": {
             "en": (
                 "Joshua",
+                "Josh.",
+                "Jos.",
+                "Jsh.",
                 "Josh",
                 "Josh(?:ua)?",
             ),
@@ -283,6 +302,10 @@ class Canon(
         "judg": {
             "en": (
                 "Judges",
+                "Judg.",
+                "Jdg.",
+                "Jg.",
+                "Jdgs.",
                 "Judg",
                 "Judg(?:es)?",
             ),
@@ -313,8 +336,8 @@ class Canon(
         "ruth": {
             "en": (
                 "Ruth",
-                "Ruth",
-                "Ruth",
+                "Rth.",
+                "Ru.",
             ),
             "chapters": [
                 22,
@@ -325,6 +348,20 @@ class Canon(
         },
         "1sam": {
             "en": (
+                "1 Samuel",
+                "1 Sam.",
+                "1 Sm.",
+                "1 Sa.",
+                "1 S.",
+                "I Sam.",
+                "I Sa.",
+                "1Sam.",
+                "1Sa.",
+                "1S.",
+                "1st Samuel",
+                "1st Sam.",
+                "First Samuel",
+                "First Sam.",
                 "I Samuel",
                 "1Sam",
                 "(?:1|I)(?:\s)?Sam(?:uel)?",
@@ -365,6 +402,20 @@ class Canon(
         },
         "2sam": {
             "en": (
+                "2 Samuel",
+                "2 Sam.",
+                "2 Sm.",
+                "2 Sa.",
+                "2 S.",
+                "II Sam.",
+                "II Sa.",
+                "2Sam.",
+                "2Sa.",
+                "2S.",
+                "2nd Samuel",
+                "2nd Sam.",
+                "Second Samuel",
+                "Second Sam.",
                 "II Samuel",
                 "2Sam",
                 "(?:2|II)(?:\s)?Sam(?:uel)?",
@@ -398,8 +449,20 @@ class Canon(
         },
         "1kgs": {
             "en": (
-                "I Kings",
+                "1 Kings",
+                "1 Kgs",
+                "1 Ki",
                 "1Kgs",
+                "1Kin",
+                "1Ki",
+                "1K",
+                "I Kgs",
+                "I Ki",
+                "1st Kings",
+                "1st Kgs",
+                "First Kings",
+                "First Kgs",
+                "I Kings",
                 "(?:1|I)(?:\s)?K(?:in)?gs",
             ),
             "chapters": [
@@ -429,6 +492,19 @@ class Canon(
         },
         "2kgs": {
             "en": (
+                "2 Kings",
+                "2 Kgs.",
+                "2 Ki.",
+                "2Kgs.",
+                "2Kin.",
+                "2Ki.",
+                "2K.",
+                "II Kgs.",
+                "II Ki.",
+                "2nd Kings",
+                "2nd Kgs.",
+                "Second Kings",
+                "Second Kgs.",
                 "II Kings",
                 "2Kgs",
                 "(?:2|II)(?:\s)?K(?:in)?gs",
@@ -463,6 +539,20 @@ class Canon(
         },
         "1chr": {
             "en": (
+                "1 Chronicles",
+                "1 Chron.",
+                "1 Chr.",
+                "1 Ch.",
+                "1Chron.",
+                "1Chr.",
+                "1Ch.",
+                "I Chron.",
+                "I Chr.",
+                "I Ch.",
+                "1st Chronicles",
+                "1st Chron.",
+                "First Chronicles",
+                "First Chron.",
                 "I Chronicles",
                 "1Chr",
                 "(?:1|I)(?:\s)?Chr(?:o(?:n(?:icles)?)?)?",
@@ -501,6 +591,20 @@ class Canon(
         },
         "2chr": {
             "en": (
+                "2 Chronicles",
+                "2 Chron.",
+                "2 Chr.",
+                "2 Ch.",
+                "2Chron.",
+                "2Chr.",
+                "2Ch.",
+                "II Chron.",
+                "II Chr.",
+                "II Ch.",
+                "2nd Chronicles",
+                "2nd Chron.",
+                "Second Chronicles",
+                "Second Chron.",
                 "II Chronicles",
                 "2Chr",
                 "(?:2|II)(?:\s)?Chr(?:o(?:n(?:icles)?)?)?",
@@ -547,8 +651,8 @@ class Canon(
         "ezra": {
             "en": (
                 "Ezra",
-                "Ezra",
-                "Ezra",
+                "Ezr.",
+                "Ez.",
             ),
             "chapters": [
                 11,
@@ -566,6 +670,8 @@ class Canon(
         "neh": {
             "en": (
                 "Nehemiah",
+                "Neh.",
+                "Ne.",
                 "Neh",
                 "Neh(?:emiah)?",
             ),
@@ -588,6 +694,9 @@ class Canon(
         "esth": {
             "en": (
                 "Esther",
+                "Est.",
+                "Esth.",
+                "Es.",
                 "Esth",
                 "Esth(?:er)?",
             ),
@@ -607,8 +716,7 @@ class Canon(
         "job": {
             "en": (
                 "Job",
-                "Job",
-                "Job",
+                "Jb.",
             ),
             "chapters": [
                 22,
@@ -658,6 +766,12 @@ class Canon(
         "ps": {
             "en": (
                 "Psalms",
+                "Ps.",
+                "Psalm",
+                "Pslm.",
+                "Psa.",
+                "Psm.",
+                "Pss.",
                 "Ps",
                 "Ps(?:a)?(?:lm(?:s)?)?",
             ),
@@ -818,6 +932,9 @@ class Canon(
             "en": (
                 "Proverbs",
                 "Prov",
+                "Pro.",
+                "Prv.",
+                "Pr.",
                 "Prov(?:erbs)?",
             ),
             "chapters": [
@@ -857,6 +974,11 @@ class Canon(
         "eccl": {
             "en": (
                 "Ecclesiastes",
+                "Eccles.",
+                "Eccle.",
+                "Ecc.",
+                "Ec.",
+                "Qoh.",
                 "Eccl",
                 "Ecc(?:l(?:es(?:iastes)?)?)?",
             ),
@@ -879,6 +1001,12 @@ class Canon(
             "en": (
                 "Song of Solomon",
                 "Song",
+                "Song of Songs",
+                "SOS.",
+                "So.",
+                "Canticle of Canticles",
+                "Canticles",
+                "Cant.",
                 "Song(?: of Sol(?:omon)?)?",
             ),
             "chapters": [
@@ -895,6 +1023,8 @@ class Canon(
         "isa": {
             "en": (
                 "Isaiah",
+                "Isa.",
+                "Is.",
                 "Isa",
                 "Isa(?:iah)?",
             ),
@@ -970,6 +1100,9 @@ class Canon(
         "jer": {
             "en": (
                 "Jeremiah",
+                "Jer.",
+                "Je.",
+                "Jr.",
                 "Jer",
                 "Jer(?:emiah)?",
             ),
@@ -1031,6 +1164,8 @@ class Canon(
         "lam": {
             "en": (
                 "Lamentations",
+                "Lam.",
+                "La.",
                 "Lam",
                 "Lam(?:entations)?",
             ),
@@ -1045,6 +1180,9 @@ class Canon(
         "ezek": {
             "en": (
                 "Ezekiel",
+                "Ezek.",
+                "Eze.",
+                "Ezk.",
                 "Ezek",
                 "Ezek(?:iel)?",
             ),
@@ -1102,6 +1240,9 @@ class Canon(
         "dan": {
             "en": (
                 "Daniel",
+                "Dan.",
+                "Da.",
+                "Dn.",
                 "Dan",
                 "Dan(?:iel)?",
             ),
@@ -1123,6 +1264,8 @@ class Canon(
         "hos": {
             "en": (
                 "Hosea",
+                "Hos.",
+                "Ho.",
                 "Hos",
                 "Hos(?:ea)?",
             ),
@@ -1146,8 +1289,7 @@ class Canon(
         "joel": {
             "en": (
                 "Joel",
-                "Joel",
-                "Joel",
+                "Jl.",
             ),
             "chapters": [
                 20,
@@ -1158,8 +1300,7 @@ class Canon(
         "amos": {
             "en": (
                 "Amos",
-                "Amos",
-                "Amos",
+                "Am.",
             ),
             "chapters": [
                 15,
@@ -1176,6 +1317,8 @@ class Canon(
         "obad": {
             "en": (
                 "Obadiah",
+                "Obad.",
+                "Ob.",
                 "Obad",
                 "Obad(?:iah)?",
             ),
@@ -1186,7 +1329,8 @@ class Canon(
         "jonah": {
             "en": (
                 "Jonah",
-                "Jonah",
+                "Jnh.",
+                "Jon.",
                 "Jon(?:ah)?",
             ),
             "chapters": [
@@ -1199,6 +1343,8 @@ class Canon(
         "mic": {
             "en": (
                 "Micah",
+                "Mic.",
+                "Mc.",
                 "Mic",
                 "Mic(?:ah)?",
             ),
@@ -1215,6 +1361,8 @@ class Canon(
         "nah": {
             "en": (
                 "Nahum",
+                "Nah.",
+                "Na.",
                 "Nah",
                 "Nah(?:um)?",
             ),
@@ -1227,6 +1375,8 @@ class Canon(
         "hab": {
             "en": (
                 "Habakkuk",
+                "Hab.",
+                "Hb.",
                 "Hab",
                 "Hab(?:akkuk)?",
             ),
@@ -1239,6 +1389,9 @@ class Canon(
         "zeph": {
             "en": (
                 "Zephaniah",
+                "Zeph.",
+                "Zep.",
+                "Zp.",
                 "Zeph",
                 "Zeph(?:aniah)?",
             ),
@@ -1251,6 +1404,8 @@ class Canon(
         "hag": {
             "en": (
                 "Haggai",
+                "Hag.",
+                "Hg.",
                 "Hag",
                 "Hag(?:gai)?",
             ),
@@ -1262,6 +1417,9 @@ class Canon(
         "zech": {
             "en": (
                 "Zechariah",
+                "Zech.",
+                "Zec.",
+                "Zc.",
                 "Zech",
                 "Zech(?:ariah)?",
             ),
@@ -1285,6 +1443,8 @@ class Canon(
         "mal": {
             "en": (
                 "Malachi",
+                "Mal.",
+                "Ml.",
                 "Mal",
                 "Mal(?:achi)?",
             ),
@@ -1298,6 +1458,8 @@ class Canon(
         "matt": {
             "en": (
                 "Matthew",
+                "Matt.",
+                "Mt.",
                 "Matt",
                 "Matt(?:hew)?",
             ),
@@ -1335,8 +1497,10 @@ class Canon(
         "mark": {
             "en": (
                 "Mark",
-                "Mark",
-                "Mark",
+                "Mrk",
+                "Mar",
+                "Mk",
+                "Mr",
             ),
             "chapters": [
                 45,
@@ -1360,8 +1524,8 @@ class Canon(
         "luke": {
             "en": (
                 "Luke",
-                "Luke",
-                "Luke",
+                "Luk",
+                "Lk",
             ),
             "chapters": [
                 80,
@@ -1393,7 +1557,9 @@ class Canon(
         "john": {
             "en": (
                 "John",
-                "John",
+                "Joh",
+                "Jhn",
+                "Jn",
                 "(?<!(?:1|2|3|I)\s)(?<!(?:1|2|3|I))John",
             ),
             "chapters": [
@@ -1423,8 +1589,8 @@ class Canon(
         "acts": {
             "en": (
                 "Acts",
-                "Acts",
-                "Acts",
+                "Act",
+                "Ac",
             ),
             "chapters": [
                 26,
@@ -1460,6 +1626,9 @@ class Canon(
         "rom": {
             "en": (
                 "Romans",
+                "Rom.",
+                "Ro.",
+                "Rm.",
                 "Rom",
                 "Rom(?:ans)?",
             ),
@@ -1484,7 +1653,17 @@ class Canon(
         },
         "1cor": {
             "en": (
+                "1 Corinthians",
+                "1 Cor.",
+                "1 Co.",
+                "I Cor.",
+                "I Co.",
+                "1Cor.",
+                "1Co.",
                 "I Corinthians",
+                "1Corinthians",
+                "1st Corinthians",
+                "2nd Corinthians",
                 "1Cor",
                 "(?:1|I)(?:\s)?Cor(?:inthians)?",
             ),
@@ -1509,7 +1688,17 @@ class Canon(
         },
         "2cor": {
             "en": (
+                "2 Corinthians",
+                "2 Cor.",
+                "2 Co.",
+                "II Cor.",
+                "II Co.",
+                "2Cor.",
+                "2Co.",
                 "II Corinthians",
+                "2Corinthians",
+                "2nd Corinthians",
+                "Second Corinthians",
                 "2Cor",
                 "(?:2|II)(?:\s)?Cor(?:inthians)?",
             ),
@@ -1532,6 +1721,8 @@ class Canon(
         "gal": {
             "en": (
                 "Galatians",
+                "Gal.",
+                "Ga.",
                 "Gal",
                 "Gal(?:atians)?",
             ),
@@ -1547,6 +1738,8 @@ class Canon(
         "eph": {
             "en": (
                 "Ephesians",
+                "Eph.",
+                "Ephes.",
                 "Eph",
                 "Eph(?:esians)?",
             ),
@@ -1562,6 +1755,9 @@ class Canon(
         "phil": {
             "en": (
                 "Philippians",
+                "Phil.",
+                "Php.",
+                "Pp.",
                 "Phil",
                 "Phil(?:ippians)?",
             ),
@@ -1575,6 +1771,8 @@ class Canon(
         "col": {
             "en": (
                 "Colossians",
+                "Col.",
+                "Co.",
                 "Col",
                 "Col(?:ossians)?",
             ),
@@ -1587,7 +1785,22 @@ class Canon(
         },
         "1thess": {
             "en": (
+                "1 Thessalonians",
+                "1 Thess.",
+                "1 Thes.",
+                "1 Th.",
                 "I Thessalonians",
+                "I Thess.",
+                "I Thes.",
+                "I Th.",
+                "1Thessalonians",
+                "1Thess.",
+                "1Thes.",
+                "1Th.",
+                "1st Thessalonians",
+                "1st Thess.",
+                "First Thessalonians",
+                "First Thess.",
                 "1Thess",
                 "(?:1|I)(?:\s)?Thess(?:alonians)?",
             ),
@@ -1601,7 +1814,21 @@ class Canon(
         },
         "2thess": {
             "en": (
+                "2 Thessalonians",
+                "2 Thess.",
+                "2 Thes.",
                 "II Thessalonians",
+                "II Thess.",
+                "II Thes.",
+                "II Th.",
+                "2Thessalonians",
+                "2Thess.",
+                "2Thes.",
+                "2Th.",
+                "2nd Thessalonians",
+                "2nd Thess.",
+                "Second Thessalonians",
+                "Second Thess.",
                 "2Thess",
                 "(?:2|II)(?:\s)?Thess(?:alonians)?",
             ),
@@ -1613,7 +1840,19 @@ class Canon(
         },
         "1tim": {
             "en": (
+                "1 Timothy",
+                "1 Tim.",
+                "1 Ti.",
                 "I Timothy",
+                "I Tim.",
+                "I Ti.",
+                "1Timothy",
+                "1Tim.",
+                "1Ti.",
+                "1st Timothy",
+                "1st Tim.",
+                "First Timothy",
+                "First Tim.",
                 "1Tim",
                 "(?:1|I)(?:\s)?Tim(?:othy)?",
             ),
@@ -1628,7 +1867,19 @@ class Canon(
         },
         "2tim": {
             "en": (
+                "2 Timothy",
+                "2 Tim.",
+                "2 Ti.",
                 "II Timothy",
+                "II Tim.",
+                "II Ti.",
+                "2Timothy",
+                "2Tim.",
+                "2Ti.",
+                "2nd Timothy",
+                "2nd Tim.",
+                "Second Timothy",
+                "Second Tim.",
                 "2Tim",
                 "(?:2|II)(?:\s)?Tim(?:othy)?",
             ),
@@ -1642,7 +1893,8 @@ class Canon(
         "titus": {
             "en": (
                 "Titus",
-                "Titus",
+                "Tit",
+                "ti",
                 "Tit(?:us)?",
             ),
             "chapters": [
@@ -1654,6 +1906,9 @@ class Canon(
         "phlm": {
             "en": (
                 "Philemon",
+                "Philem.",
+                "Phm.",
+                "Pm.",
                 "Phlm",
                 "Phlm|Phile(?:m(?:on)?)?",
             ),
@@ -1664,6 +1919,7 @@ class Canon(
         "heb": {
             "en": (
                 "Hebrews",
+                "Heb.",
                 "Heb",
                 "Heb(?:rews)?",
             ),
@@ -1687,6 +1943,7 @@ class Canon(
             "en": (
                 "James",
                 "Jas",
+                "Jm",
                 "Ja(?:me)?s",
             ),
             "chapters": [
@@ -1699,7 +1956,22 @@ class Canon(
         },
         "1pet": {
             "en": (
+                "1 Peter",
+                "1 Pet.",
+                "1 Pe.",
+                "1 Pt.",
+                "1 P.",
+                "I Pet.",
+                "I Pt.",
+                "I Pe.",
+                "1Peter",
+                "1Pet.",
+                "1Pe.",
+                "1Pt.",
+                "1P.",
                 "I Peter",
+                "1st Peter",
+                "First Peter",
                 "1Pet",
                 "(?:1|I)(?:\s)?Pet(?:er)?",
             ),
@@ -1713,7 +1985,22 @@ class Canon(
         },
         "2pet": {
             "en": (
+                "2 Peter",
+                "2 Pet.",
+                "2 Pe.",
+                "2 Pt.",
+                "2 P.",
                 "II Peter",
+                "II Pet.",
+                "II Pt.",
+                "II Pe.",
+                "2Peter",
+                "2Pet.",
+                "2Pe.",
+                "2Pt.",
+                "2P.",
+                "2nd Peter",
+                "Second Peter",
                 "2Pet",
                 "(?:2|II)(?:\s)?Pet(?:er)?",
             ),
@@ -1725,8 +2012,23 @@ class Canon(
         },
         "1john": {
             "en": (
-                "I John",
+                "1 John",
+                "1 Jhn.",
+                "1 Jn.",
+                "1 J.",
                 "1John",
+                "1Jhn.",
+                "1Joh.",
+                "1Jn.",
+                "1Jo.",
+                "1J.",
+                "I John",
+                "I Jhn.",
+                "I Joh.",
+                "I Jn.",
+                "I Jo.",
+                "1st John",
+                "First John",
                 "(?:(?:1|I)(?:\s)?)John",
             ),
             "chapters": [
@@ -1739,8 +2041,23 @@ class Canon(
         },
         "2john": {
             "en": (
-                "II John",
+                "2 John",
+                "2 Jhn.",
+                "2 Jn.",
+                "2 J.",
                 "2John",
+                "2Jhn.",
+                "2Joh.",
+                "2Jn.",
+                "2Jo.",
+                "2J.",
+                "II John",
+                "II Jhn.",
+                "II Joh.",
+                "II Jn.",
+                "II Jo.",
+                "2nd John",
+                "Second John",
                 "(?:(?:2|II)(?:\s)?)John",
             ),
             "chapters": [
@@ -1749,8 +2066,23 @@ class Canon(
         },
         "3john": {
             "en": (
-                "III John",
+                "3 John",
+                "3 Jhn.",
+                "3 Jn.",
+                "3 J.",
                 "3John",
+                "3Jhn.",
+                "3Joh.",
+                "3Jn.",
+                "3Jo.",
+                "3J.",
+                "III John",
+                "III Jhn.",
+                "III Joh.",
+                "III Jn.",
+                "III Jo.",
+                "3rd John",
+                "Third John",
                 "(?:(?:3|III)(?:\s)?)John",
             ),
             "chapters": [
@@ -1760,8 +2092,8 @@ class Canon(
         "jude": {
             "en": (
                 "Jude",
-                "Jude",
-                "Jude",
+                "Jud.",
+                "Jd.",
             ),
             "chapters": [
                 25
@@ -1769,8 +2101,11 @@ class Canon(
         },
         "rev": {
             "en": (
-                "Revelation of Jesus Christ",
+                "Revelation",
                 "Rev",
+                "Re",
+                "The Revelation",
+                "Revelation of Jesus Christ",
                 "Rev(?:elation)?(?:\sof Jesus Christ)?",
             ),
             "chapters": [
