@@ -10,3 +10,5 @@ MANIFEST
 /dist/
 
 .idea/
+
+*.egg-info
