@@ -19,7 +19,7 @@ class CanonBase:
                                 'Abbreviation, Regex, [ch1_verse_count, ch2_verse_count, ...])')
 
             # We set the regex instance variables
-            self.book_re_string = '|'.join(b.get(self.language)[2] for b in self.books.values())
+            self.book_re_string = '|'.join(b.get(self.language)[-1] for b in self.books.values())
             self.book_re = re.compile(self.book_re_string, re.IGNORECASE | re.UNICODE)
 
             self.single_verse_re_string = self.single_verse_re.get(self.language)
